@@ -12,8 +12,8 @@ import json                 # https://www.w3schools.com/python/python_json.asp
 import time
 
 
-key = "5fa89a529623b645aa04690b"
-domain = "wss://remotescontrol1.herokuapp.com/"
+key = '' # input both values here
+domain = ''
 
 
 async def connectSocket():
