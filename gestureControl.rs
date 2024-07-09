@@ -22,7 +22,7 @@ use std::thread::sleep;
 fn main() {
 
     // Connect to a websocket server
-    let (mut socket, _response) = connect(Url::parse("ws://remotescontrol1.herokuapp.com/5fa89a529623b645aa04690b").unwrap()).expect("Can't connect");
+    let (mut socket, _response) = connect(Url::parse("here goes your url").unwrap()).expect("Can't connect");
 
     sleep(Duration::from_millis(1000));
     // https://stackoverflow.com/questions/28952938/how-can-i-put-the-current-thread-to-sleep
